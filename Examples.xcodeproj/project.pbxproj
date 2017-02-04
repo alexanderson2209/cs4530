@@ -42,6 +42,7 @@
 				ED4C86CE1E465861008A4185 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		ED4C86CE1E465861008A4185 /* Products */ = {
 			isa = PBXGroup;
