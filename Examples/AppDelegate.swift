@@ -12,11 +12,42 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    private var _light: UIImageView? = nil
+    private var _lightSwitch: UISwitch? = nil
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.rootViewController = LightController()
+        window?.rootViewController?.view.backgroundColor = UIColor.cyan
+        window?.makeKeyAndVisible()
+        
+        _light = UIImageView()
+        _light?.backgroundColor = UIColor.red
+        _light?.image = UIImage(named: "off")
+        
+        _light?.frame = CGRect(x: 20.0, y: 20.0, width: 300, height: 350)
+        window?.rootViewController?.view.addSubview(_light!)
+        
+        _lightSwitch = UISwitch()
+        _lightSwitch?.frame = CGRect(x: 50, y: 380, width: 200, height: 200)
+        _lightSwitch?.addTarget(self, action: #selector(lightSwitchChanged), for: UIControlEvents.valueChanged)
+        window?.rootViewController?.view.addSubview(_lightSwitch!)
+        
+        NSLog("hey")
+        
         return true
+    }
+    
+    func lightSwitchChanged() {
+        NSLog("LIght switch changed")
+        if _lightSwitch!.isOn {
+            _light?.image = UIImage(named: "on")
+        }
+        else {
+            _light?.image = UIImage(named: "off")
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
