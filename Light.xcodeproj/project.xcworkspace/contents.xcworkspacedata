@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Examples.xcodeproj">
+      location = "self:/Users/alexanderson/Google Drive/Xcode Coding Projects/Examples/Light.xcodeproj">
    </FileRef>
 </Workspace>
