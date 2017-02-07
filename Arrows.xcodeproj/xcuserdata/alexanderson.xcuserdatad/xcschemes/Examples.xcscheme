@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "ED4C86CC1E465860008A4185"
-               BuildableName = "Examples.app"
-               BlueprintName = "Examples"
-               ReferencedContainer = "container:Examples.xcodeproj">
+               BuildableName = "Arrows.app"
+               BlueprintName = "Arrows"
+               ReferencedContainer = "container:Arrows.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED4C86CC1E465860008A4185"
-            BuildableName = "Examples.app"
-            BlueprintName = "Examples"
-            ReferencedContainer = "container:Examples.xcodeproj">
+            BuildableName = "Arrows.app"
+            BlueprintName = "Arrows"
+            ReferencedContainer = "container:Arrows.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED4C86CC1E465860008A4185"
-            BuildableName = "Examples.app"
-            BlueprintName = "Examples"
-            ReferencedContainer = "container:Examples.xcodeproj">
+            BuildableName = "Arrows.app"
+            BlueprintName = "Arrows"
+            ReferencedContainer = "container:Arrows.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "ED4C86CC1E465860008A4185"
-            BuildableName = "Examples.app"
-            BlueprintName = "Examples"
-            ReferencedContainer = "container:Examples.xcodeproj">
+            BuildableName = "Arrows.app"
+            BlueprintName = "Arrows"
+            ReferencedContainer = "container:Arrows.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

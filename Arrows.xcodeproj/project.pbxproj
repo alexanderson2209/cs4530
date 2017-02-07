@@ -13,7 +13,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ED4C86CD1E465861008A4185 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED4C86CD1E465861008A4185 /* Arrows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arrows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4C86D01E465861008A4185 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED4C86D21E465861008A4185 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ED4C86D71E465861008A4185 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,7 +34,7 @@
 		ED4C86C41E465860008A4185 = {
 			isa = PBXGroup;
 			children = (
-				ED4C86CF1E465861008A4185 /* Examples */,
+				ED4C86CF1E465861008A4185 /* Arrows */,
 				ED4C86CE1E465861008A4185 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,12 +43,12 @@
 		ED4C86CE1E465861008A4185 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED4C86CD1E465861008A4185 /* Examples.app */,
+				ED4C86CD1E465861008A4185 /* Arrows.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED4C86CF1E465861008A4185 /* Examples */ = {
+		ED4C86CF1E465861008A4185 /* Arrows */ = {
 			isa = PBXGroup;
 			children = (
 				ED4C86D01E465861008A4185 /* AppDelegate.swift */,
@@ -56,15 +56,16 @@
 				ED4C86D71E465861008A4185 /* Assets.xcassets */,
 				ED4C86DC1E465861008A4185 /* Info.plist */,
 			);
+			name = Arrows;
 			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED4C86CC1E465860008A4185 /* Examples */ = {
+		ED4C86CC1E465860008A4185 /* Arrows */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED4C86DF1E465861008A4185 /* Build configuration list for PBXNativeTarget "Examples" */;
+			buildConfigurationList = ED4C86DF1E465861008A4185 /* Build configuration list for PBXNativeTarget "Arrows" */;
 			buildPhases = (
 				ED4C86C91E465860008A4185 /* Sources */,
 				ED4C86CA1E465860008A4185 /* Frameworks */,
@@ -74,9 +75,9 @@
 			);
 			dependencies = (
 			);
-			name = Examples;
+			name = Arrows;
 			productName = Examples;
-			productReference = ED4C86CD1E465861008A4185 /* Examples.app */;
+			productReference = ED4C86CD1E465861008A4185 /* Arrows.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ED4C86C81E465860008A4185 /* Build configuration list for PBXProject "Examples" */;
+			buildConfigurationList = ED4C86C81E465860008A4185 /* Build configuration list for PBXProject "Arrows" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -109,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED4C86CC1E465860008A4185 /* Examples */,
+				ED4C86CC1E465860008A4185 /* Arrows */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +261,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED4C86C81E465860008A4185 /* Build configuration list for PBXProject "Examples" */ = {
+		ED4C86C81E465860008A4185 /* Build configuration list for PBXProject "Arrows" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED4C86DD1E465861008A4185 /* Debug */,
@@ -269,7 +270,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED4C86DF1E465861008A4185 /* Build configuration list for PBXNativeTarget "Examples" */ = {
+		ED4C86DF1E465861008A4185 /* Build configuration list for PBXNativeTarget "Arrows" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED4C86E01E465861008A4185 /* Debug */,
