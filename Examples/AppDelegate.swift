@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+		
+		window = UIWindow()
+		window?.rootViewController = ViewController()
+		let vectorView : VectorView = VectorView()
+		window?.rootViewController?.view.addSubview(vectorView)
+		vectorView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
+		vectorView.backgroundColor = UIColor.lightGray
+		window?.makeKeyAndVisible()
+		
         return true
     }
 
