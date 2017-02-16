@@ -13,6 +13,8 @@
 		EDF6D6B21E4A567C00B58C54 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDF6D6B11E4A567C00B58C54 /* Default-568h@2x.png */; };
 		EDF6D6B41E4A56D100B58C54 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6D6B31E4A56D100B58C54 /* Vector.swift */; };
 		EDF6D6B61E4A71B900B58C54 /* VectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6D6B51E4A71B900B58C54 /* VectorView.swift */; };
+		EDF6D6B81E4CF73E00B58C54 /* KnobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6D6B71E4CF73E00B58C54 /* KnobView.swift */; };
+		EDF6D6BA1E4D284800B58C54 /* ColorChooserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF6D6B91E4D284800B58C54 /* ColorChooserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EDF6D6B11E4A567C00B58C54 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EDF6D6B31E4A56D100B58C54 /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
 		EDF6D6B51E4A71B900B58C54 /* VectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorView.swift; sourceTree = "<group>"; };
+		EDF6D6B71E4CF73E00B58C54 /* KnobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobView.swift; sourceTree = "<group>"; };
+		EDF6D6B91E4D284800B58C54 /* ColorChooserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorChooserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				ED4C86DC1E465861008A4185 /* Info.plist */,
 				EDF6D6B31E4A56D100B58C54 /* Vector.swift */,
 				EDF6D6B51E4A71B900B58C54 /* VectorView.swift */,
+				EDF6D6B71E4CF73E00B58C54 /* KnobView.swift */,
+				EDF6D6B91E4D284800B58C54 /* ColorChooserView.swift */,
 			);
 			name = Arrows;
 			path = Examples;
@@ -142,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED4C86D31E465861008A4185 /* ViewController.swift in Sources */,
+				EDF6D6B81E4CF73E00B58C54 /* KnobView.swift in Sources */,
+				EDF6D6BA1E4D284800B58C54 /* ColorChooserView.swift in Sources */,
 				EDF6D6B61E4A71B900B58C54 /* VectorView.swift in Sources */,
 				EDF6D6B41E4A56D100B58C54 /* Vector.swift in Sources */,
 				ED4C86D11E465861008A4185 /* AppDelegate.swift in Sources */,

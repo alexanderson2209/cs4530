@@ -9,24 +9,33 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, knobDelegate {
 
     var window: UIWindow?
-
+	private var _colorChooser : ColorChooserView? = nil
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 		
 		window = UIWindow()
 		window?.rootViewController = ViewController()
-		let vectorView : VectorView = VectorView()
-		window?.rootViewController?.view.addSubview(vectorView)
-		vectorView.frame = CGRect(x: 10.0, y: 20.0, width: 300.0, height: 300.0)
-		vectorView.backgroundColor = UIColor.lightGray
 		window?.makeKeyAndVisible()
+		
+		_colorChooser = ColorChooserView(frame: UIScreen.main.bounds)
+		_colorChooser?.autoresizingMask = .flexibleWidth
+		window?.rootViewController?.view.addSubview(_colorChooser!)
+		
+		_colorChooser?.knobViewRed?.knobChangedDelegate = self
+		_colorChooser?.knobViewBlue?.knobChangedDelegate = self
+		_colorChooser?.knobViewGreen?.knobChangedDelegate = self
+
 		
         return true
     }
+	
+	func knobChanged(knob: KnobView, rotatedToAngle angle : CGFloat) {
+		NSLog("Changed")
+	}
 
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
